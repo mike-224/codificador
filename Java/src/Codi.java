@@ -8,16 +8,6 @@ public class Codi {
         String mensaje = "La Operación Regenbogen ha sido todo un éxito, desplazarse mañana dia 25 al puerto de Bremen";
         int llave = 5;
         char opcion;
-        /*Pedir el mensaje a cifrar
-        do {
-            System.out.print("Introduce el mensaje para cifrarlo: ");
-            mensaje = sc.nextLine();
-        } while (mensaje.isEmpty()); //Si esta vacio lo pido otra vez
-        //Pedimos un nº para que sea la llave de encriptacion
-        do {
-            System.out.print("Introduce tu llave: ");
-            llave = sc.nextInt();
-        } while (llave < 1 ); //La llave tiene que ser mayor que 0*/
         System.out.println("Texto cifrado: " + cifradoCesar(mensaje, llave)); //Mostramos por consola el mensaje cifrado
     }
 
